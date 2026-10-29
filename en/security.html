@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security &amp; Data | SpecScout</title>
+    <meta name="description" content="Where SpecScout runs, which service providers are involved, how long we keep data and how accounts and API keys are protected, in plain words.">
+    <link rel="canonical" href="https://anora-systems.com/en/security">
+    <link rel="alternate" hreflang="de" href="https://anora-systems.com/sicherheit">
+    <link rel="alternate" hreflang="en" href="https://anora-systems.com/en/security">
+    <link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/security">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anora Systems">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:url" content="https://anora-systems.com/en/security">
+    <meta property="og:title" content="Security &amp; Data | SpecScout">
+    <meta property="og:description" content="Where SpecScout runs, which service providers are involved, how long we keep data and how accounts and API keys are protected, in plain words.">
+    <meta property="og:image" content="https://anora-systems.com/media/social-share-en.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="https://anora-systems.com/media/favicon-512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://anora-systems.com/media/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://anora-systems.com/media/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://anora-systems.com/media/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://anora-systems.com/media/favicon-180.png">
+
+    <link rel="stylesheet" href="../assets/fonts/fonts.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+
+<body class="font-sans text-slate-800 antialiased bg-white flex flex-col min-h-screen">
+
+    <nav class="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur" aria-label="Menu">
+        <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-2 sm:px-6 lg:px-8">
+
+            <a href="./" class="flex shrink-0 items-center gap-3">
+                <img src="../media/logo.png" alt="Anora Systems" class="h-10 w-auto md:h-12">
+                <span class="hidden h-8 w-px bg-gray-200 sm:block" aria-hidden="true"></span>
+                <span class="hidden font-outfit text-xl tracking-tight text-anoraBlue sm:block">Spec<span class="text-anoraTeal">Scout</span></span>
+            </a>
+
+            <div class="flex items-center gap-2 lg:gap-4 xl:gap-6">
+                <div data-nav-menu class="hidden items-center gap-5 lg:flex xl:gap-6">
+                    <a href="./" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Product</a>
+                    <a href="recommerce" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Re-commerce</a>
+                    <a href="pricing" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Pricing</a>
+                    <a href="security" aria-current="page" class="text-sm font-medium text-anoraTeal transition hover:text-anoraTeal">Security</a>
+                    <a href="api-documentation" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">API documentation</a>
+                    <a href="contact" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Contact</a>
+                </div>
+
+                <a href="https://dashboard.anora-systems.com/auth/login" class="hidden text-sm font-medium text-anoraBlue transition hover:text-anoraTeal md:inline-block">Log in</a>
+                <a href="https://specscout.anora-systems.com/access" class="hidden rounded-brand bg-anoraOrange px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-anoraOrangeHover focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraOrange focus-visible:ring-offset-2 sm:inline-block">Start free</a>
+
+                <div class="flex shrink-0 rounded-md bg-gray-100 p-0.5 text-[11px]">
+                    <a href="../sicherheit" hreflang="de" class="px-2 py-0.5 font-medium text-gray-500 transition hover:text-anoraTeal">DE</a>
+                    <span class="rounded bg-white px-2 py-0.5 font-bold text-anoraBlue shadow-sm" aria-current="true">EN</span>
+                </div>
+
+                <button id="mobile-menu-btn" type="button" class="rounded-md p-2 text-gray-600 transition hover:text-anoraTeal focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal lg:hidden" aria-controls="mobile-menu" aria-expanded="false" aria-label="Menu">
+                    <span data-menu-icon="open"><svg class="lucide lucide-menu h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16" /> <path d="M4 12h16" /> <path d="M4 19h16" /></svg></span>
+                    <span data-menu-icon="close" class="hidden"><svg class="lucide lucide-x h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></svg></span>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" data-nav-menu class="absolute left-0 hidden w-full border-b border-gray-200 bg-white shadow-lg lg:hidden">
+            <div class="mx-auto max-w-7xl space-y-1 px-4 pb-6 pt-2 sm:px-6">
+                <a href="./" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Product</a>
+                <a href="recommerce" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Re-commerce</a>
+                <a href="pricing" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Pricing</a>
+                <a href="security" aria-current="page" class="block rounded-md px-2 py-2 text-base font-medium text-anoraTeal hover:bg-gray-50">Security</a>
+                <a href="api-documentation" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">API documentation</a>
+                <a href="contact" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Contact</a>
+                <a href="https://dashboard.anora-systems.com/auth/login" class="block rounded-md px-2 py-2 text-base font-medium text-anoraBlue hover:bg-gray-50">Log in</a>
+                <div class="pt-3">
+                    <a href="https://specscout.anora-systems.com/access" class="block w-full rounded-brand bg-anoraOrange px-4 py-3 text-center text-base font-semibold text-white shadow-sm transition hover:bg-anoraOrangeHover">Start free</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="../js/nav-menu.js"></script>
+
+
+    <main>
+
+    <header class="bg-anoraBlue">
+        <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 md:py-20 lg:px-8">
+            <p class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-anoraTeal"><svg class="lucide lucide-shield-check h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /></svg>Security &amp; Data</p>
+            <h1 class="mt-4 max-w-3xl text-4xl font-bold leading-tight text-white md:text-5xl">What happens to your data.</h1>
+            <p class="mt-6 max-w-3xl text-lg leading-relaxed text-onBlue">The essentials for your data protection and security review, in plain words. Binding are our <a href="privacy" class="font-medium text-white underline hover:text-anoraTeal">Privacy Policy</a>, the <a href="service-providers" class="font-medium text-white underline hover:text-anoraTeal">list of service providers</a> and the <a href="terms" class="font-medium text-white underline hover:text-anoraTeal">Terms and Conditions</a>.</p>
+        </div>
+    </header>
+
+    <section class="bg-white py-20">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-anoraBlue">At a glance</h2>
+            <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div class="rounded-xl border border-gray-200 p-6">
+                    <svg class="lucide lucide-server h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="8" x="2" y="2" rx="2" ry="2" /> <rect width="20" height="8" x="2" y="14" rx="2" ry="2" /> <line x1="6" x2="6.01" y1="6" y2="6" /> <line x1="6" x2="6.01" y1="18" y2="18" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Servers in Germany</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">The web app, dashboard, API and database run on our servers at Hetzner in Germany.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 p-6">
+                    <svg class="lucide lucide-lock h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Encrypted connections only</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">The website and SpecScout are only reachable over TLS; unencrypted requests are redirected.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 p-6">
+                    <svg class="lucide lucide-user-round-x h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16.5 16.5 5 5" /> <path d="M2 21a8 8 0 0 1 11.531-7.18" /> <path d="m21.5 16.5-5 5" /> <circle cx="10" cy="8" r="5" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Searches without personal data</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">A search holds product data. We store it without a user ID and without an IP address; only the server logs keep search terms with the IP address, for 30 days. Web search and AI models never learn who is searching.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 p-6">
+                    <svg class="lucide lucide-file-check h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m9 15 2 2 4-4" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">No data processing agreement needed</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">SpecScout is meant for product data; we do not process personal data on your behalf. For the data of your user accounts, we are the controller ourselves (Terms and Conditions, section 11).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-20">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-anoraBlue">What happens to a search</h2>
+            <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <h3 class="font-semibold text-anoraBlue">What a search contains</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Product name, brand, category, the specs you ask for and, if you set any, your source rules. Personal data does not belong in a search; the Terms and Conditions say so too.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <h3 class="font-semibold text-anoraBlue">Who is involved</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Web search services receive search terms built from the product data. The pages found are fetched by our own servers. AI models receive the product name, brand, your spec definitions and the text of the pages. Some providers are based in the US or process data there, under the EU-US Data Privacy Framework or the Standard Contractual Clauses. <a href="service-providers" class="font-medium text-anoraTeal hover:underline">All service providers</a></p>
+                </div>
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <h3 class="font-semibold text-anoraBlue">How long we keep it</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Inputs and results for 90 days, without a user ID. After that, only daily statistics without search content remain. For your allowance, we count your searches per month.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <h3 class="font-semibold text-anoraBlue">How your searches make SpecScout better</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Evaluated pages teach SpecScout which sources are reliable, so it returns better search results. For this, we keep the address, text, the model's answer and the specs searched for of every page an AI model evaluates, for at most 12 months and without a user ID. We use them to check quality, compare models and train an algorithm that ranks sources. We do not train large language models with it. Your source rules feed into a shared rating of websites, without any link to your account.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-anoraBlue">How we protect your account</h2>
+            <div class="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2">
+                <div>
+                    <h3 class="flex items-center gap-2 font-semibold text-anoraBlue"><svg class="lucide lucide-users h-5 w-5 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /></svg>Accounts</h3>
+                    <ul class="mt-4 space-y-3 text-sm leading-relaxed text-gray-600">
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Second factor through an authenticator app, with recovery codes</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Export your data and delete your account yourself</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="flex items-center gap-2 font-semibold text-anoraBlue"><svg class="lucide lucide-key-round h-5 w-5 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /> <circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></svg>API keys</h3>
+                    <ul class="mt-4 space-y-3 text-sm leading-relaxed text-gray-600">
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Optional expiry date, revocable at any time</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Access log per key, deleted after 30 days</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-20">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-anoraBlue">Retention periods</h2>
+            <div class="mt-10 overflow-hidden rounded-xl border border-gray-200 bg-white">
+                <table class="w-full text-left text-sm">
+                    <thead class="bg-gray-50 text-anoraBlue">
+                        <tr><th scope="col" class="px-6 py-3 font-semibold">Data</th><th scope="col" class="px-6 py-3 font-semibold">Deleted after</th></tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100 text-gray-600">
+                        <tr><td class="px-6 py-3">Server logs (with IP address and search terms)</td><td class="px-6 py-3">30 days</td></tr>
+                        <tr><td class="px-6 py-3">Access log of API keys</td><td class="px-6 py-3">30 days</td></tr>
+                        <tr><td class="px-6 py-3">Error monitoring (Sentry, stored in the EU)</td><td class="px-6 py-3">90 days at most</td></tr>
+                        <tr><td class="px-6 py-3">Searches: inputs and results, without a user ID</td><td class="px-6 py-3">90 days; then only daily statistics</td></tr>
+                        <tr><td class="px-6 py-3">Evaluated pages with the AI model's answer, without a user ID</td><td class="px-6 py-3">12 months</td></tr>
+                        <tr><td class="px-6 py-3">Login sessions</td><td class="px-6 py-3">30 days at most</td></tr>
+                        <tr><td class="px-6 py-3">Accounts with an unconfirmed email address</td><td class="px-6 py-3">7 days</td></tr>
+                        <tr><td class="px-6 py-3">Accounts under an Enterprise contract, with their own specs and settings</td><td class="px-6 py-3">30 days after the contract ends</td></tr>
+                        <tr><td class="px-6 py-3">Other accounts</td><td class="px-6 py-3">when you delete the account</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-4 text-sm text-gray-500">Statutory retention duties, for example for invoices, remain unaffected. Details in the <a href="privacy#specscout" class="font-medium text-anoraTeal hover:underline">Privacy Policy, part C</a>.</p>
+        </div>
+    </section>
+
+    <section class="bg-anoraBlue py-20 text-center">
+        <div class="mx-auto max-w-3xl px-4">
+            <h2 class="text-3xl font-bold text-white">Questions about data protection or security?</h2>
+            <p class="mt-6 text-lg text-onBlue">Write to us at <a href="mailto:info@anora-systems.com" class="font-medium text-white underline hover:text-anoraTeal">info@anora-systems.com</a> or through the contact page. You can test SpecScout yourself at any time.</p>
+            <div class="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+                <a href="contact" class="rounded-brand bg-anoraOrange px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-black/20 transition hover:bg-anoraOrangeHover">Contact us</a>
+                <a href="https://specscout.anora-systems.com/access" class="rounded-brand border border-white/30 px-8 py-4 text-lg font-medium text-white transition hover:border-white">Start free</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="mt-auto border-t border-white/10 bg-anoraBlue text-sm text-onBlue">
+        <div class="mx-auto grid grid-cols-1 max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
+            <div>
+                <p class="font-outfit text-xl tracking-tight text-white">Spec<span class="text-anoraTeal">Scout</span></p>
+                <p class="mt-3 leading-relaxed">Anora Systems<br>Briachstraße 10<br>88250 Weingarten</p>
+                <p class="mt-3"><a href="mailto:info@anora-systems.com" class="transition hover:text-white">info@anora-systems.com</a></p>
+                <div class="mt-4 flex gap-3">
+                    <a href="https://www.linkedin.com/company/anora-systems" target="_blank" rel="noopener noreferrer" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:bg-[#0077b5] hover:text-white" aria-label="Anora Systems on LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/orgs/ANORA-Systems" target="_blank" rel="noopener noreferrer" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:bg-white hover:text-anoraBlue" aria-label="Anora Systems on GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p class="font-semibold text-white">SpecScout</p>
+                <ul class="mt-3 space-y-2">
+                    <li><a href="./" class="transition hover:text-white">Product</a></li>
+                    <li><a href="recommerce" class="transition hover:text-white">Re-commerce</a></li>
+                    <li><a href="pricing" class="transition hover:text-white">Pricing</a></li>
+                    <li><a href="security" class="transition hover:text-white">Security &amp; Data</a></li>
+                    <li><a href="api-documentation" class="transition hover:text-white">API documentation</a></li>
+                    <li><a href="https://specscout.anora-systems.com/access" class="transition hover:text-white">Start free</a></li>
+                    <li><a href="https://dashboard.anora-systems.com/auth/login" class="transition hover:text-white">Log in</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="font-semibold text-white">Company</p>
+                <ul class="mt-3 space-y-2">
+                    <li><a href="about" class="transition hover:text-white">About us</a></li>
+                    <li><a href="contact" class="transition hover:text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="font-semibold text-white">Legal</p>
+                <ul class="mt-3 space-y-2">
+                    <li><a href="legal" class="transition hover:text-white">Imprint</a></li>
+                    <li><a href="privacy" class="transition hover:text-white">Privacy Policy</a></li>
+                    <li><a href="terms" class="transition hover:text-white">Terms &amp; Conditions</a></li>
+                    <li><a href="service-providers" class="transition hover:text-white">Service providers</a></li>
+                    <li><a href="open-source-licenses" class="transition hover:text-white">Open-source licenses</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-white/10">
+            <p class="mx-auto max-w-7xl px-4 py-5 text-center text-xs text-onBlueMuted sm:px-6 lg:px-8">&copy; <span data-current-year>2026</span> Anora Systems. All rights reserved.</p>
+            <script>document.querySelectorAll("[data-current-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
+        </div>
+    </footer>
+
+</body>
+</html>

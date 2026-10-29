@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://anora-systems.com/</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/recommerce</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/recommerce"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/recommerce"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/recommerce"/>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/recommerce</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/recommerce"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/recommerce"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/recommerce"/>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/preise</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/preise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/pricing"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/pricing"/>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/pricing</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/preise"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/pricing"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/pricing"/>
+        <lastmod>2026-10-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/sicherheit</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/sicherheit"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/security"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/security"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/security</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/sicherheit"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/security"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/security"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/ueber-uns</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/ueber-uns"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/about"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/about"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/about</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/ueber-uns"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/about"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/about"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/contact</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/contact"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/contact"/>
+        <lastmod>2026-10-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/contact</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/contact"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/contact"/>
+        <lastmod>2026-10-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/impressum</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/impressum"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/legal"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/legal"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/legal</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/impressum"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/legal"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/legal"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/datenschutz</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/datenschutz"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/privacy"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/privacy"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/privacy</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/datenschutz"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/privacy"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/privacy"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/dienstleister</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/dienstleister"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/service-providers"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/service-providers"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/service-providers</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/dienstleister"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/service-providers"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/service-providers"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/agb</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/agb"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/terms"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/terms"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/terms</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/agb"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/terms"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/terms"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/open-source-lizenzen</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/open-source-lizenzen"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/open-source-licenses"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/open-source-licenses"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/open-source-licenses</loc>
+        <xhtml:link rel="alternate" hreflang="de" href="https://anora-systems.com/open-source-lizenzen"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://anora-systems.com/en/open-source-licenses"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/open-source-licenses"/>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://anora-systems.com/en/api-documentation</loc>
+        <lastmod>2026-10-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
