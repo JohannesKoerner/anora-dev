@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpecScout | Vollständige, filterbare Produktdaten für Ihren Onlineshop</title>
+    <meta name="description" content="SpecScout recherchiert technische Produktdaten im Web, per Produktname und Marke oder per EAN. Jeder Wert mit Quellen und Confidence-Wert, bereit für Ihre Filter. 20 Suchen im Monat kostenlos.">
+    <link rel="canonical" href="https://anora-systems.com/">
+    <link rel="alternate" hreflang="de" href="https://anora-systems.com/">
+    <link rel="alternate" hreflang="en" href="https://anora-systems.com/en/">
+    <link rel="alternate" hreflang="x-default" href="https://anora-systems.com/en/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anora Systems">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:url" content="https://anora-systems.com/">
+    <meta property="og:title" content="SpecScout | Vollständige, filterbare Produktdaten für Ihren Onlineshop">
+    <meta property="og:description" content="SpecScout recherchiert technische Produktdaten im Web, per Produktname und Marke oder per EAN. Jeder Wert mit Quellen und Confidence-Wert, bereit für Ihre Filter. 20 Suchen im Monat kostenlos.">
+    <meta property="og:image" content="https://anora-systems.com/media/social-share-de.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="https://anora-systems.com/media/favicon-512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://anora-systems.com/media/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://anora-systems.com/media/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://anora-systems.com/media/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://anora-systems.com/media/favicon-180.png">
+
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+
+        <meta name="google-site-verification" content="ybnBL2PCbk57-2AXHVWXyyMtgjDKzndqHElJvgFlhL0" />
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SpecScout",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "description": "SpecScout recherchiert technische Produktdaten im Web und liefert jeden Wert mit Quellen und Confidence-Wert, als Web-App und als REST-API.",
+        "url": "https://anora-systems.com/",
+        "image": "https://anora-systems.com/media/social-share-de.png",
+        "inLanguage": "de",
+        "creator": {
+            "@type": "Organization",
+            "@id": "https://anora-systems.com/#organization",
+            "name": "Anora Systems",
+            "url": "https://anora-systems.com/",
+            "logo": "https://anora-systems.com/media/logo.png",
+            "sameAs": ["https://www.linkedin.com/company/anora-systems", "https://github.com/orgs/ANORA-Systems"]
+        },
+        "offers": {
+            "@type": "Offer",
+            "name": "Free",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "description": "20 Suchen pro Monat, nach Bestätigung der E-Mail-Adresse",
+            "url": "https://anora-systems.com/preise"
+        }
+    }
+    </script>
+</head>
+
+<body class="font-sans text-slate-800 antialiased bg-white flex flex-col min-h-screen">
+
+    <nav class="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur" aria-label="Menü">
+        <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-2 sm:px-6 lg:px-8">
+
+            <a href="#" class="flex shrink-0 items-center gap-3">
+                <img src="media/logo.png" alt="Anora Systems" class="h-10 w-auto md:h-12">
+                <span class="hidden h-8 w-px bg-gray-200 sm:block" aria-hidden="true"></span>
+                <span class="hidden font-outfit text-xl tracking-tight text-anoraBlue sm:block">Spec<span class="text-anoraTeal">Scout</span></span>
+            </a>
+
+            <div class="flex items-center gap-2 lg:gap-4 xl:gap-6">
+                <div data-nav-menu class="hidden items-center gap-5 lg:flex xl:gap-6">
+                    <a href="#" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Produkt</a>
+                    <a href="recommerce" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Re-Commerce</a>
+                    <a href="preise" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Preise</a>
+                    <a href="sicherheit" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Sicherheit</a>
+                    <a href="en/api-documentation" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">API-Dokumentation</a>
+                    <a href="contact" class="text-sm font-medium text-gray-600 transition hover:text-anoraTeal">Kontakt</a>
+                </div>
+
+                <a href="https://dashboard.anora-systems.com/de/auth/login" class="hidden text-sm font-medium text-anoraBlue transition hover:text-anoraTeal md:inline-block">Anmelden</a>
+                <a href="https://specscout.anora-systems.com/de/access" class="hidden rounded-brand bg-anoraOrange px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-anoraOrangeHover focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraOrange focus-visible:ring-offset-2 sm:inline-block">Kostenlos starten</a>
+
+                <div class="flex shrink-0 rounded-md bg-gray-100 p-0.5 text-[11px]">
+                    <span class="rounded bg-white px-2 py-0.5 font-bold text-anoraBlue shadow-sm" aria-current="true">DE</span>
+                    <a href="en/" hreflang="en" class="px-2 py-0.5 font-medium text-gray-500 transition hover:text-anoraTeal">EN</a>
+                </div>
+
+                <button id="mobile-menu-btn" type="button" class="rounded-md p-2 text-gray-600 transition hover:text-anoraTeal focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal lg:hidden" aria-controls="mobile-menu" aria-expanded="false" aria-label="Menü">
+                    <span data-menu-icon="open"><svg class="lucide lucide-menu h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16" /> <path d="M4 12h16" /> <path d="M4 19h16" /></svg></span>
+                    <span data-menu-icon="close" class="hidden"><svg class="lucide lucide-x h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></svg></span>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" data-nav-menu class="absolute left-0 hidden w-full border-b border-gray-200 bg-white shadow-lg lg:hidden">
+            <div class="mx-auto max-w-7xl space-y-1 px-4 pb-6 pt-2 sm:px-6">
+                <a href="#" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Produkt</a>
+                <a href="recommerce" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Re-Commerce</a>
+                <a href="preise" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Preise</a>
+                <a href="sicherheit" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Sicherheit</a>
+                <a href="en/api-documentation" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">API-Dokumentation</a>
+                <a href="contact" class="block rounded-md px-2 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-anoraTeal">Kontakt</a>
+                <a href="https://dashboard.anora-systems.com/de/auth/login" class="block rounded-md px-2 py-2 text-base font-medium text-anoraBlue hover:bg-gray-50">Anmelden</a>
+                <div class="pt-3">
+                    <a href="https://specscout.anora-systems.com/de/access" class="block w-full rounded-brand bg-anoraOrange px-4 py-3 text-center text-base font-semibold text-white shadow-sm transition hover:bg-anoraOrangeHover">Kostenlos starten</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="js/nav-menu.js"></script>
+
+
+    <main>
+
+    <header class="bg-anoraBlue relative overflow-hidden">
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 relative z-10">
+            <div id="hero-grid" class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-6">
+                        Vollständige, filterbare Produktdaten. Ohne manuelle Recherche.
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        <strong>SpecScout</strong> extrahiert, validiert und strukturiert technische Spezifikationen aus dem Web. Stundenlange Recherche, in Minuten erledigt.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://specscout.anora-systems.com/de/access" target="_blank" rel="noopener" class="bg-anoraOrange hover:bg-orange-600 text-white text-center px-8 py-4 rounded-md font-bold text-lg transition shadow-lg shadow-orange-900/50">
+                            Kostenlos starten
+                        </a>
+                        <a href="#how-it-works" class="border border-gray-500 hover:border-white text-white text-center px-8 py-4 rounded-md font-medium transition">
+                            Wie es funktioniert
+                        </a>
+                    </div>
+                    <p class="text-sm text-gray-400 mt-4">20 kostenlose Suchen pro Monat.</p>
+                </div>
+                
+                <div class="flex flex-col">
+                    <div class="relative">
+                        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 shadow-2xl scroll-mt-24" id="examples" data-example-search data-src="demo/examples.json" data-start-url="https://specscout.anora-systems.com/de/access" data-expand-grid="hero-grid">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex space-x-2">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                                </div>
+                                <div class="text-xs text-gray-400">SpecScout · Beispielsuche</div>
+                            </div>
+                                            <template data-icon="chevron-down"><svg class="lucide lucide-chevron-down h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></template>
+                <template data-icon="external-link"><svg class="lucide lucide-external-link h-3 w-3 shrink-0" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6" /> <path d="M10 14 21 3" /> <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg></template>
+                <template data-icon="search"><svg class="lucide lucide-search h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34" /> <circle cx="11" cy="11" r="8" /></svg></template>
+                <template data-icon="loader-circle"><svg class="lucide lucide-loader-circle h-5 w-5" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-6.219-8.56" /></svg></template>
+                <template data-icon="circle-slash"><svg class="lucide lucide-circle-slash h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <line x1="9" x2="15" y1="15" y2="9" /></svg></template>
+                <template data-icon="arrow-right"><svg class="lucide lucide-arrow-right h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></svg></template>
+                <template data-icon="x"><svg class="lucide lucide-x h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></svg></template>
+
+                            <div data-example-root>
+                                <noscript><p class="text-sm text-gray-300">Die Beispiele brauchen JavaScript.</p></noscript>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="border-b border-gray-200 bg-white" aria-label="Was SpecScout ausmacht">
+        <ul class="mx-auto grid grid-cols-1 max-w-7xl gap-6 px-4 py-8 text-sm sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+            <li class="flex items-start gap-3"><svg class="lucide lucide-shield-check mt-0.5 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /></svg><span><strong class="text-anoraBlue">Jeder Wert bestätigt</strong> durch zwei unabhängige Quellen oder eine maßgebliche Quelle wie den Hersteller</span></li>
+            <li class="flex items-start gap-3"><svg class="lucide lucide-link-2 mt-0.5 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 17H7A5 5 0 0 1 7 7h2" /> <path d="M15 7h2a5 5 0 1 1 0 10h-2" /> <line x1="8" x2="16" y1="12" y2="12" /></svg><span><strong class="text-anoraBlue">Quellen und Confidence-Wert</strong> zu jedem einzelnen Wert</span></li>
+            <li class="flex items-start gap-3"><svg class="lucide lucide-barcode mt-0.5 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5v14" /> <path d="M8 5v14" /> <path d="M12 5v14" /> <path d="M17 5v14" /> <path d="M21 5v14" /></svg><span><strong class="text-anoraBlue">Suche per Name und Marke</strong> oder per EAN</span></li>
+            <li class="flex items-start gap-3"><svg class="lucide lucide-server mt-0.5 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="8" x="2" y="2" rx="2" ry="2" /> <rect width="20" height="8" x="2" y="14" rx="2" ry="2" /> <line x1="6" x2="6.01" y1="6" y2="6" /> <line x1="6" x2="6.01" y1="18" y2="18" /></svg><span><strong class="text-anoraBlue">Server in Deutschland</strong>, Suchen ohne Personenbezug. <a href="sicherheit" class="font-medium text-anoraTeal hover:underline">Sicherheit &amp; Daten</a></span></li>
+        </ul>
+    </section>
+
+    <section id="problem" class="scroll-mt-20 bg-gray-50 py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl font-bold text-anoraBlue">Fehlende Produktdaten kosten Umsatz.</h2>
+                <p class="mt-4 text-lg text-gray-600">Was Kunden nicht finden oder nicht vergleichen können, kaufen sie nicht. Und jedes neue Produkt bedeutet Recherche.</p>
+            </div>
+            <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <svg class="lucide lucide-file-text h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Lückenhafte Angaben</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Wichtige Produktspezifikationen fehlen, also fehlen Ihren Kunden die Informationen für die Kaufentscheidung.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <svg class="lucide lucide-list-filter h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h20" /> <path d="M6 12h12" /> <path d="M9 19h6" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Filter, die nicht greifen</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Uneinheitliche Werte und Einheiten (mm, cm, Zoll) lassen passende Produkte durch die Facettensuche fallen.</p>
+                </div>
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <svg class="lucide lucide-clock h-6 w-6 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <path d="M12 6v6l4 2" /></svg>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Stunden manueller Recherche</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Herstellerseiten und Datenblätter durchsuchen, abtippen, prüfen: für jedes neue Produkt aufs Neue.</p>
+                </div>
+            </div>
+            <div class="mt-6 flex flex-col gap-2 rounded-xl border border-gray-200 bg-gray-100 p-6 md:flex-row md:items-center md:gap-6 md:px-8">
+                <p class="shrink-0 whitespace-nowrap text-4xl font-bold text-anoraTeal">44&nbsp;%</p>
+                <p class="text-gray-700">der Verbraucher haben einen Kauf abgebrochen, weil die Produktinformationen nicht ausreichten. <span class="mt-1 block text-sm text-gray-500">Quelle: <a href="https://syndigo.com/news/2025-product-experience-report/" target="_blank" rel="nofollow noopener noreferrer" class="underline hover:text-anoraBlue">Syndigo, State of Product Experience Report 2025</a></span></p>
+            </div>
+        </div>
+    </section>
+
+    <span id="solution" class="block scroll-mt-20" aria-hidden="true"></span>
+    <section id="how-it-works" class="scroll-mt-20 bg-gray-50 py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-3xl font-bold text-anoraBlue">So funktioniert SpecScout</h2>
+                <p class="mt-4 text-lg text-gray-600">Einfacher Workflow zur schnellen und automatisierten Datenanreicherung</p>
+            </div>
+            <ol class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <li class="rounded-xl border border-gray-200 bg-white p-6">
+                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-anoraBlue text-sm font-bold text-white">1</span>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Produkt angeben</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Produktname und Marke oder eine EAN. In der Web-App einzeln, über die API eine Anfrage pro Produkt.</p>
+                </li>
+                <li class="rounded-xl border border-gray-200 bg-white p-6">
+                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-anoraBlue text-sm font-bold text-white">2</span>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Spezifikationen festlegen</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Sie bestimmen genau, welche Spezifikationen per Kategorie gesucht werden und in welcher Einheit und in welchem Format Sie die Ergebnisse benötigen. Alternativ wählen und bearbeiten Sie einfach vordefinierte Spezifikationen aus unserer umfangreichen Bibliothek.</p>
+                </li>
+                <li class="rounded-xl border border-gray-200 bg-white p-6">
+                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-anoraBlue text-sm font-bold text-white">3</span>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Recherche und Prüfung</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">SpecScout liest Herstellerseiten, Datenblätter (PDF) und zuverlässige Drittquellen. Ein Wert wird nur ausgegeben, wenn zwei unabhängige Quellen übereinstimmen oder eine maßgebliche Quelle wie der Hersteller ihn bestätigt.</p>
+                </li>
+                <li class="rounded-xl border border-gray-200 bg-white p-6">
+                    <span class="flex h-8 w-8 items-center justify-center rounded-full bg-anoraBlue text-sm font-bold text-white">4</span>
+                    <h3 class="mt-4 font-semibold text-anoraBlue">Ergebnis übernehmen</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Jeder Wert kommt mit Quellen und Confidence-Wert, als Tabelle in der Web-App oder als JSON über die API. Was sich nicht bestätigen ließ, kommt als „nicht gefunden“ zurück.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <span id="whyspecscout" class="block scroll-mt-20" aria-hidden="true"></span>
+    <section id="benefits" class="scroll-mt-20 bg-white py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h2 class="max-w-3xl text-3xl font-bold text-anoraBlue">Was Sie davon haben</h2>
+            <div class="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div class="rounded-xl border border-gray-200 p-6 lg:p-8">
+                    <svg class="lucide lucide-badge-check h-7 w-7 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <path d="m16 9-5.5 5.5L8 12" /></svg>
+                    <h3 class="mt-4 text-xl font-semibold text-anoraBlue">Korrekt, und Sie können es prüfen.</h3>
+                    <ul class="mt-4 space-y-3 text-sm leading-relaxed text-gray-600">
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Jeder Wert ist durch mindestens zwei unabhängige Quellen bestätigt oder durch eine maßgebliche Quelle wie den Hersteller.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Jeder Wert kommt mit seinen Quellen und einem Confidence-Wert.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Gibt es ein Produkt in Varianten (etwa 256 und 512 GB), kommen alle Werte mit ihren Quellen statt eines geratenen.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Ähnliche Produkte werden aussortiert.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Was sich nicht bestätigen lässt, kommt als „nicht gefunden“ zurück.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg><span>Sie entscheiden, welche Seiten zählen: Quellen für eine Marke, eine Kategorie oder beides blacklisten oder als vertrauenswürdig markieren, oder exklusiv verwenden. <a href="en/api-documentation#search-settings" class="font-medium text-anoraTeal hover:underline">Mehr in der Doku</a></span></li>
+                    </ul>
+                </div>
+                <div class="rounded-xl border border-gray-200 p-6 lg:p-8">
+                    <svg class="lucide lucide-list-filter h-7 w-7 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h20" /> <path d="M6 12h12" /> <path d="M9 19h6" /></svg>
+                    <h3 class="mt-4 text-xl font-semibold text-anoraBlue">Bereit für Ihre Filter.</h3>
+                    <ul class="mt-4 space-y-3 text-sm leading-relaxed text-gray-600">
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Alle Werte werden auf die von Ihnen gewünschte Einheit normalisiert.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Bereiche und Abmessungen als strukturierte Werte.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Einheitliche Spezifikationsdefinitionen für alle Produkte einer Kategorie für zuverlässige Vergleichbarkeit.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Feste Wertelisten pro Spezifikation möglich; Synonyme und andere Sprachen werden auf diese festen Werte abgebildet.</li>
+                    </ul>
+                </div>
+                <div class="rounded-xl border border-gray-200 p-6 lg:p-8">
+                    <svg class="lucide lucide-gauge h-7 w-7 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4" /> <path d="M3.34 19a10 10 0 1 1 17.32 0" /></svg>
+                    <h3 class="mt-4 text-xl font-semibold text-anoraBlue">Stunden Recherche, in Minuten erledigt.</h3>
+                    <ul class="mt-4 space-y-3 text-sm leading-relaxed text-gray-600">
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg><span>Im Schnitt rund 17 Sekunden pro Produkt<span class="text-anoraTeal">*</span>, statt Shopseiten und Datenblätter von Hand zu durchsuchen.</span></li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Prüfen statt recherchieren: Mit Confidence-Wert und Quellen sehen Sie sofort, welchen Werten Sie vertrauen können und welche Sie noch einmal nachprüfen möchten.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Eine Spezifikationsbibliothek als Startpunkt für Ihre Kategorien macht das Erstellen neuer Kategorien einfach und schnell.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Mit Enterprise: eingebauter KI-Assistent, der Ihre Spezifikationen entwirft, anpasst und prüft, wenn Sie eigene Spezifikationen definieren möchten.</li>
+                        <li class="flex gap-2"><svg class="lucide lucide-check mt-1 h-4 w-4 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Mit unserer Batch-Suche können Sie mehrere Produkte gleichzeitig suchen. Während SpecScout arbeitet, können Sie direkt die nächste Suche starten.</li>
+                    </ul>
+                    <p class="mt-4 text-xs text-gray-400"><span class="text-anoraTeal">*</span>gemessen im August 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fit" class="scroll-mt-20 bg-gray-50 py-20">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-anoraBlue">Wann SpecScout für Sie passt, und wann nicht</h2>
+            <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div class="rounded-xl border border-anoraTeal/30 bg-white p-6">
+                    <h3 class="flex items-center gap-2 font-semibold text-anoraBlue"><svg class="lucide lucide-circle-check h-5 w-5 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <path d="m16 9-5.5 5.5L8 12" /></svg>Passt gut, wenn Sie</h3>
+                    <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600">
+                        <li>Produkte mit vielen technischen Spezifikationen verkaufen,</li>
+                        <li>regelmäßig viele Produkte anlegen oder pflegen,</li>
+                        <li>Produktdaten heute von Hand recherchieren oder Felder leer lassen, weil die Suche zu lange dauert,</li>
+                        <li>strukturierte, vergleichbare Daten für Filter und Suche brauchen.</li>
+                    </ul>
+                </div>
+                <div class="rounded-xl border border-gray-200 bg-white p-6">
+                    <h3 class="flex items-center gap-2 font-semibold text-anoraBlue"><svg class="lucide lucide-circle-slash h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <line x1="9" x2="15" y1="15" y2="9" /></svg>Passt weniger, wenn</h3>
+                    <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-gray-600">
+                        <li>Ihre Produkte kaum technische Spezifikationen haben (etwa Mode oder Deko),</li>
+                        <li>Ihr Sortiment sehr klein ist und sich selten ändert, sodass sich die Pflege von Hand lohnt.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="developers" class="scroll-mt-20 bg-anoraBlue py-20">
+        <div class="mx-auto grid grid-cols-1 max-w-7xl items-start gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+            <div>
+                <p class="text-sm font-semibold uppercase tracking-wider text-anoraTeal">Für Entwickler</p>
+                <h2 class="mt-3 text-3xl font-bold text-white">Eine REST-API, die in jedes System passt.</h2>
+                <ul class="mt-6 space-y-3 text-onBlue">
+                    <li class="flex gap-3"><svg class="lucide lucide-terminal mt-1 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19h8" /> <path d="m4 17 6-6-6-6" /></svg>JSON über HTTPS; funktioniert mit jedem System, das eine REST-API aufrufen kann, auch mit Automatisierungswerkzeugen.</li>
+                    <li class="flex gap-3"><svg class="lucide lucide-list-filter mt-1 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h20" /> <path d="M6 12h12" /> <path d="M9 19h6" /></svg>Spezifikationen einmal als Kategorie festlegen, danach genügen Produktname, Marke und Kategorie.</li>
+                    <li class="flex gap-3"><svg class="lucide lucide-clock mt-1 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /> <path d="M12 6v6l4 2" /></svg>Eine Suche dauert 10 bis 40 Sekunden; am besten als Hintergrundjob mit mindestens 180 Sekunden Timeout.</li>
+                    <li class="flex gap-3"><svg class="lucide lucide-gauge mt-1 h-5 w-5 shrink-0 text-anoraTeal" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4" /> <path d="M3.34 19a10 10 0 1 1 17.32 0" /></svg>Bis zu 200 Anfragen pro Minute je Schlüssel; nur abgeschlossene Suchen zählen gegen Ihr Kontingent.</li>
+                </ul>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="https://dashboard.anora-systems.com/de/auth/register" class="inline-flex items-center gap-2 rounded-brand bg-anoraOrange px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-anoraOrangeHover">Kostenlosen API-Schlüssel holen</a>
+                    <a href="en/api-documentation" class="inline-flex items-center gap-2 rounded-brand border border-white/30 px-5 py-3 text-sm font-semibold text-white transition hover:border-white">Zur API-Dokumentation (Englisch) <svg class="lucide lucide-arrow-right h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></svg></a>
+                </div>
+            </div>
+            <div>
+                <p class="mb-3 text-sm text-onBlueMuted">Antwort der API (Auszug)</p>
+                    <div class="overflow-hidden rounded-xl bg-codeBg shadow-lg ring-1 ring-black/10">
+                        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-white/10 px-4 py-2.5 text-xs text-onBlueMuted">
+                            <span class="min-w-0 break-all font-mono">GET /api/v1/search?product_name=Galaxy+S24+Ultra&amp;brand=Samsung&amp;category=3fa85f64-5717-4562-b3fc-2c963f66afa6</span>
+                        </div>
+                        <pre class="code-dark max-h-96 overflow-auto p-4 text-xs leading-relaxed text-gray-400"><code class="font-mono language-json">{
+  <span class="tok-key">"specs"</span>: [
+    {
+      <span class="tok-key">"name"</span>: <span class="tok-str">"Colour"</span>,
+      <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+      <span class="tok-key">"instance"</span>: <span class="tok-str">"str"</span>,
+      <span class="tok-key">"value"</span>: [
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Titanium Black"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.8022</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"</span>
+          ]
+        },
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Titanium Blue"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.8022</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"</span>
+          ]
+        },
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Titanium Green"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.8912</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.computerbild.de/artikel/cb-Tests-Handy-Samsung-S24-Ultra-Test-Review-Galaxy-2025-Smartphone-37823333.html"</span>,
+            <span class="tok-str">"https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"</span>
+          ]
+        },
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Titanium Orange"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.8912</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.computerbild.de/artikel/cb-Tests-Handy-Samsung-S24-Ultra-Test-Review-Galaxy-2025-Smartphone-37823333.html"</span>,
+            <span class="tok-str">"https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"</span>
+          ]
+        },
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Titanium Violet"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.8912</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.computerbild.de/artikel/cb-Tests-Handy-Samsung-S24-Ultra-Test-Review-Galaxy-2025-Smartphone-37823333.html"</span>,
+            <span class="tok-str">"https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"</span>
+          ]
+        },
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Titanium Yellow"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.8022</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.gsmarena.com/samsung_galaxy_s24_ultra-12771.php"</span>
+          ]
+        }
+      ]
+    },
+    {
+      <span class="tok-key">"name"</span>: <span class="tok-str">"CPU"</span>,
+      <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+      <span class="tok-key">"instance"</span>: <span class="tok-str">"str"</span>,
+      <span class="tok-key">"value"</span>: [
+        {
+          <span class="tok-key">"value"</span>: <span class="tok-str">"Qualcomm Snapdragon 8 Gen 3"</span>,
+          <span class="tok-key">"unit"</span>: <span class="tok-lit">null</span>,
+          <span class="tok-key">"confidence"</span>: <span class="tok-num">0.747</span>,
+          <span class="tok-key">"sources"</span>: [
+            <span class="tok-str">"https://de.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://en.wikipedia.org/wiki/Samsung_Galaxy_S24"</span>,
+            <span class="tok-str">"https://www.computerbild.de/artikel/cb-Tests-Handy-Samsung-S24-Ultra-Test-Review-Galaxy-2025-Smartphone-37823333.html"</span>
+          ]
+        }
+      ]
+    }
+  ],
+  <span class="tok-key">"not_found"</span>: [],
+  <span class="tok-key">"status"</span>: <span class="tok-str">"success"</span>,
+  <span class="tok-key">"errors"</span>: []
+}</code></pre>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="scroll-mt-20 bg-white py-20">
+        <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-anoraBlue">Häufige Fragen</h2>
+            <div class="mt-8 space-y-3">
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Was kostet SpecScout?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">Mit dem kostenlosen Zugang haben Sie 20 Suchen pro Monat. Für mehr Suchen, den KI-Assistenten für Spezifikationen und persönliche Betreuung gibt es Enterprise, mit Preis auf Anfrage. <a href="preise" class="text-anoraTeal hover:underline">Zu den Preisen</a>.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Kann ich die Datenqualität testen?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">Natürlich. Sie können SpecScout mit 20 kostenlosen Suchen pro Monat testen: <a href="https://specscout.anora-systems.com/de/access" class="text-anoraTeal hover:underline">Kostenlos starten</a>. Wenn Sie für Ihren Test mehr Suchen brauchen, <a href="contact" class="text-anoraTeal hover:underline">kontaktieren Sie uns</a>.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Woher stammen die Daten?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">Die Daten stammen aus Quellen im Web, etwa Herstellerseiten, Datenblättern (PDF) und Onlineshops. Jeder Wert braucht mindestens zwei unabhängige Quellen oder eine maßgebliche Quelle wie den Hersteller und wird mit Links zu seinen Quellen geliefert.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Wie stellt SpecScout sicher, dass die Werte stimmen?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">SpecScout vergleicht technische Angaben aus mehreren Quellen. Ein Wert wird nur ausgegeben, wenn mindestens zwei unabhängige Quellen übereinstimmen oder eine maßgebliche Quelle wie der Hersteller ihn bestätigt; sonst wird die Spezifikation als „nicht gefunden“ aufgeführt. Seiten zu einem anderen Modell (etwa zum S24 Ultra, wenn Sie das S24 suchen) werden aussortiert. Jeder Wert enthält Links zu seinen Quellen, sodass Sie ihn prüfen können.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">SpecScout nutzt KI. Kann es nicht zu Halluzinationen kommen?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">KI kann Fehler machen, deshalb verlässt sich SpecScout nie auf eine einzelne KI-Antwort. Ein Wert wird nur ausgegeben, wenn mindestens zwei unabhängige Quellen übereinstimmen oder eine maßgebliche Quelle wie der Hersteller ihn bestätigt, und Seiten zu einem anderen Modell werden aussortiert. Werte, die sich nicht bestätigen lassen, kommen als „nicht gefunden“ zurück statt als Vermutung, und feste Wertelisten beschränken die KI auf die Werte, die Sie zulassen. Jeder Wert enthält Links zu seinen Quellen, sodass Sie ihn prüfen können.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Wie binde ich SpecScout an mein System an?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">SpecScout ist eine Web-App und eine API. In der Web-App suchen Sie Produkt für Produkt. Über die REST-Schnittstelle rufen Sie die Daten als JSON ab. Damit funktioniert SpecScout mit jedem System, das eine REST-API aufrufen kann, auch mit Automatisierungswerkzeugen wie Zapier, n8n oder Microsoft Power Platform. Details stehen in der <a href="en/api-documentation" class="text-anoraTeal hover:underline">API-Dokumentation</a>.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Ist SpecScout für eine vollständige Automatisierung geeignet?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">Teilweise. SpecScout übernimmt die Recherche komplett selbstständig. Wir empfehlen jedoch, die Daten in angemessenem Umfang zu prüfen, bevor Sie sie verwenden. SpecScout macht das einfach, da jeder gefundene Wert mit Links zu seinen Quellen und einem Confidence-Wert kommt. Prüfen Sie vor allem Werte mit niedrigem Confidence-Wert, besonders kritische Angaben und Spezifikationen, für die es mehrere Varianten gibt.</div>
+                </details>
+                <details class="group rounded-xl border border-gray-200 bg-white open:shadow-sm">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 rounded-xl p-5 font-semibold text-anoraBlue focus:outline-none focus-visible:ring-2 focus-visible:ring-anoraTeal [&::-webkit-details-marker]:hidden">Werden meine Daten gespeichert oder weitergegeben?<svg class="lucide lucide-chevron-down h-5 w-5 shrink-0 text-anoraTeal transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+                    <div class="px-5 pb-5 text-sm leading-relaxed text-gray-600">
+                        <p>Zur Bearbeitung Ihrer Anfrage werden Produktnamen, die gesuchten Spezifikationen und die gefundenen Webseiten an Dienstleister für Websuche und KI-Modelle weitergegeben; welche das sind, steht in unserer <a href="dienstleister" class="text-anoraTeal hover:underline">Liste der Dienstleister</a>. Die Suchdaten (Eingaben, gefundene Werte und Quellen) speichern wir ohne Bezug zu Ihrem Konto und fassen sie nach 90 Tagen zu Tagesstatistiken zusammen. Wir behalten außerdem bis zu 12 Monate Stichproben aus Suchprozessen (z. B. Webseiten und KI-Antworten) für Caching (schnellere Antworten für zukünftige Suchen), Qualitätssicherung und Analysen zur Verbesserung von SpecScout. Diese Daten bleiben bei uns und werden nicht mit weiteren Dritten geteilt.</p>
+                        <p class="mt-3">Einzelheiten stehen in unseren <a href="agb" class="text-anoraTeal hover:underline">AGB</a> (Ziffer 7) und in unserer <a href="datenschutz#specscout" class="text-anoraTeal hover:underline">Datenschutzerklärung</a>.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="relative scroll-mt-20 overflow-hidden bg-anoraBlue py-20 text-center">
+        <div class="relative mx-auto max-w-3xl px-4">
+            <h2 class="text-3xl font-bold text-white md:text-4xl">Bereit, Ihre Produktdaten zu vervollständigen?</h2>
+            <p class="mt-6 text-lg text-onBlue">Testen Sie SpecScout mit 20 kostenlosen Suchen pro Monat. Für größere Kataloge und Enterprise sprechen Sie uns an.</p>
+            <div class="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+                <a href="https://specscout.anora-systems.com/de/access" class="rounded-brand bg-anoraOrange px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-black/20 transition hover:bg-anoraOrangeHover">Kostenlos starten</a>
+                <a href="contact" class="rounded-brand border border-white/30 px-8 py-4 text-lg font-medium text-white transition hover:border-white">Kontakt aufnehmen</a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <script src="js/nav-scrollspy.js"></script>
+    <script src="js/example-box.js"></script>
+
+    <footer class="mt-auto border-t border-white/10 bg-anoraBlue text-sm text-onBlue">
+        <div class="mx-auto grid grid-cols-1 max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
+            <div>
+                <p class="font-outfit text-xl tracking-tight text-white">Spec<span class="text-anoraTeal">Scout</span></p>
+                <p class="mt-3 leading-relaxed">Anora Systems<br>Briachstraße 10<br>88250 Weingarten</p>
+                <p class="mt-3"><a href="mailto:info@anora-systems.com" class="transition hover:text-white">info@anora-systems.com</a></p>
+                <div class="mt-4 flex gap-3">
+                    <a href="https://www.linkedin.com/company/anora-systems" target="_blank" rel="noopener noreferrer" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:bg-[#0077b5] hover:text-white" aria-label="Anora Systems auf LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/orgs/ANORA-Systems" target="_blank" rel="noopener noreferrer" class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 transition hover:bg-white hover:text-anoraBlue" aria-label="Anora Systems auf GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p class="font-semibold text-white">SpecScout</p>
+                <ul class="mt-3 space-y-2">
+                    <li><a href="./" class="transition hover:text-white">Produkt</a></li>
+                    <li><a href="recommerce" class="transition hover:text-white">Re-Commerce</a></li>
+                    <li><a href="preise" class="transition hover:text-white">Preise</a></li>
+                    <li><a href="sicherheit" class="transition hover:text-white">Sicherheit &amp; Daten</a></li>
+                    <li><a href="en/api-documentation" class="transition hover:text-white">API-Dokumentation</a></li>
+                    <li><a href="https://specscout.anora-systems.com/de/access" class="transition hover:text-white">Kostenlos starten</a></li>
+                    <li><a href="https://dashboard.anora-systems.com/de/auth/login" class="transition hover:text-white">Anmelden</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="font-semibold text-white">Unternehmen</p>
+                <ul class="mt-3 space-y-2">
+                    <li><a href="ueber-uns" class="transition hover:text-white">Über uns</a></li>
+                    <li><a href="contact" class="transition hover:text-white">Kontakt</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="font-semibold text-white">Rechtliches</p>
+                <ul class="mt-3 space-y-2">
+                    <li><a href="impressum" class="transition hover:text-white">Impressum</a></li>
+                    <li><a href="datenschutz" class="transition hover:text-white">Datenschutz</a></li>
+                    <li><a href="agb" class="transition hover:text-white">AGB</a></li>
+                    <li><a href="dienstleister" class="transition hover:text-white">Dienstleister</a></li>
+                    <li><a href="open-source-lizenzen" class="transition hover:text-white">Open-Source-Lizenzen</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-white/10">
+            <p class="mx-auto max-w-7xl px-4 py-5 text-center text-xs text-onBlueMuted sm:px-6 lg:px-8">&copy; <span data-current-year>2026</span> Anora Systems. Alle Rechte vorbehalten.</p>
+            <script>document.querySelectorAll("[data-current-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
+        </div>
+    </footer>
+
+</body>
+</html>
